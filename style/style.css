@@ -1,0 +1,76 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: rgb(68, 68, 68);
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.choice {
+  font-size: 3rem;
+  border: 1.5px solid rgb(68, 68, 68);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.choice:hover {
+  background-color: #e4e4e4cc;
+}
+
+.result {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.score {
+  width: 120px;
+  border: 1.5px solid rgb(68, 68, 68);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-selection {
+  text-align: center;
+}
